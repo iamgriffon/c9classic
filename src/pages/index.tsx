@@ -7,7 +7,7 @@ import * as yup from "yup"
 import { yupResolver } from "@hookform/resolvers/yup"
 import Link from "next/link";
 import { Title } from "../components/Head";
-import { SignInFormData } from "./types";
+import { SignInFormData } from "../types/home";
 
 
 const signInFormSchema = yup.object().shape({
