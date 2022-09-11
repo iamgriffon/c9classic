@@ -1,4 +1,5 @@
 import { Flex, Box, Avatar, Text } from '@chakra-ui/react';
+import Image from 'next/image';
 import { ProfileProps } from './types';
 
 export function Profile({ showProfileData = true }: ProfileProps) {
@@ -12,7 +13,7 @@ export function Profile({ showProfileData = true }: ProfileProps) {
         </Box>
       )}
 
-      <img src={'./c9.ico'} />
+      <Image src={'/c9.ico'} width={40} height={40}  />
     </Flex>
   )
 }
