@@ -4,7 +4,7 @@ import { useRouter } from 'next/router';
 import { useState } from 'react';
 import { useForm } from 'react-hook-form';
 import { Input } from '../../components/Form/Input';
-import { SignUpFormData } from './types';
+import { SignUpFormData } from '../../types/sign-up';
 import * as yup from 'yup'
 
 
