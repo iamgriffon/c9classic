@@ -43,7 +43,7 @@ export default function Home() {
         </Button>
         {loginError && <Text fontSize='sm' color='red.200' fontStyle='italic'>Erro ao logar</Text>}
         <Text mt='4' as='div' mb='0' display='flex'>
-        Don't have an account? <Text px='2' fontWeight='bold' cursor='pointer' textDecoration='underline'><Link href='sign-up'>SIGN UP</Link></Text>
+        Don't have an account?<Text px='2' fontWeight='bold' cursor='pointer' textDecoration='underline'><Link href='sign-up'>SIGN UP</Link></Text>
       </Text>
       </Flex>
     </Flex>
